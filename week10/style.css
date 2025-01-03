@@ -1,0 +1,45 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color:mediumvioletred;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), -3px -3px 5px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: lightpink;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#galleryImage {
+    width: 600px;
+    height: 400px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: mediumvioletred;
+    color: lightpink;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: lightpink;
+    color: mediumvioletred;
+    border-color: mediumvioletred;
+}
