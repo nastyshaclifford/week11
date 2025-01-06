@@ -22,4 +22,8 @@ document.getElementById('nextBtn').onclick = nextImage;
 document.getElementById('backBtn').onclick = backImage;
 updateImage();
 
+function showMessage() {
+    console.log('Я учу Java Script!');
+}
+showMessage();
 
