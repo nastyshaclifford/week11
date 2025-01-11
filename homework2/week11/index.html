@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Корзина</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./assets/bag.jpg" alt="Сумка-шоппер Beloved">
+            <div class="box-details">
+            <h3>Сумка-шоппер "Beloved"</h3>
+            <p>Состав/Материал: 80% полиэстер 20% хлопок <br />
+            Вес/Размер: 35*40 см</p>
+            <span class="price" data-original-price="700">700 рублей</span>
+        </div>
+        </div>
+        <div class="box">
+            <img src="./assets/ball.jpg" alt="Баскетбольный мяч">
+            <div class="box-details">
+                <h3>Баскетбольный мяч-попрыгунчик</h3>
+                <p>Состав/Материал: 100% резина <br />
+                Вес/Размер: Диаметр 7 см</p>
+                <span class="price" data-original-price="170">170 рублей</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./assets/capibara.jpg" alt="Игрушка Капибара">
+            <div class="box-details">
+                <h3>Игрушка Капибара</h3>
+                <p>Состав/Материал: 100% полиэстер <br />
+                Вес/Размер: 25*10*14 см</p>
+                <span class="price" data-original-price="600">600 рублей</span>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./assets/octopus.jpg" alt="Игрушка Осьминожка">
+            <div class="box-details">
+                <h3>Игрушка Осьминожка</h3>
+                <p>Состав/Материал: 100% полиэстер <br />
+                    Вес/Размер: средний</p>
+                <span class="price" data-original-price="650">650 рублей</span>
+            </div>
+        </div>
+    </div>
+    <div class="summary">
+        <p><strong><span id="total-price"></span>
+        </strong></p>
+        <button id="apply-discount" class="discount-button" onclick="">Использовать купон 20%</button>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

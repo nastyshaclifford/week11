@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.box-container {
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.box-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.box-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.summary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#total-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.discount-button {
+    margin-top: 10px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.discount-button:hover {
+    background-color: #2ecc71;
+}
